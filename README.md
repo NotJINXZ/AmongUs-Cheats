@@ -1,4 +1,4 @@
 hi
 
 
-Think its a virius? The installer soruce code is public
+Think its a virus? The installer soruce code is public
