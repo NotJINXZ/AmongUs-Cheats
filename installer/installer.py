@@ -20,6 +20,7 @@ os.system("title JINXZ WARE - Installer")
 app_version = "1.1"
 URL = "https://cdn.discordapp.com/attachments/******************/******************/JINXZWARE.zip"
 downloaddir = f"C:\\Users\\{os.getlogin()}\\Desktop\\JINXZWARE.zip"
+password = ""
 
 def getchecksum():
 	path = os.path.basename(__file__)
@@ -57,7 +58,7 @@ def main():
         if old == False:
             pass
         print(f"Downloaded JINXZWARE to: {Fore.CYAN}{downloaddir}{Fore.RESET}")
-        print(f"Password for JINXZWARE = {Fore.GREEN}JINXZWARE123{Fore.RESET}")
+        print(f"Password for JINXZWARE = {Fore.GREEN}{password}{Fore.RESET}")
         os.system("timeout /t 120")
 
 
